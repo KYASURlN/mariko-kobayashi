@@ -18,6 +18,15 @@ client.on('message', message => {
     if (message.content === 'I LOVE NAOMI') {
     	message.reply('Chi yêu em!');
   	}
+    if (message.content === 'i love naomi') {
+    	message.reply('I-I love y-you too /////');
+  	}
+    if (message.content === 'murder me naomi') {
+    	message.reply('I do not t-think that is a g-good idea..');
+  	}
+    if (message.content === 'step on me naomi') {
+    	message.reply('... A-Are you okay in the h-head? Do you need a d-doctor?');
+  	}
     if (message.content === 'who created you') {
     	message.reply('Y-You really do not know? I-Its Kyasurin!');
   	}
