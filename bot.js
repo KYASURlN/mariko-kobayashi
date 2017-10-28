@@ -8,6 +8,8 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('P-Pong!');
+       (message.content === 'Peek') {
+    	message.reply('A B-Boo!');
   	}
 });
 
