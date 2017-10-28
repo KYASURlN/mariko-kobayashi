@@ -18,6 +18,12 @@ client.on('message', message => {
     if (message.content === 'I LOVE NAOMI') {
     	message.reply('Chi yêu em!');
   	}
+    if (message.content === 'who created you') {
+    	message.reply('Y-You really do not know? I-Its Kyasurin!');
+  	}
+    if (message.content === 'tomo is gay') {
+    	message.reply('I agree.');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
