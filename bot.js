@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('UR GOING TO BREAK ME U FUCKER');
+    	message.reply('P-Pong!');
   	}
 });
 
