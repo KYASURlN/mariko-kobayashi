@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 const responseObject = {
-  "ayy": "Ayy, lmao!",
+  "ayy": "Ayy, lmao!" "lol what u want",
   "wat": "Say what?",
   "lol": "roflmaotntpmp"
 };
