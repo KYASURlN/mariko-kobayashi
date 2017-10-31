@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 const responseObject = {
   "ping": "P-Pong!!",
-  "wat": "Say what?",
+  "I LOVE NAOMI": "I-I love you, too!",
   "lol": "roflmaotntpmp"
 };
 
