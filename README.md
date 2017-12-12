@@ -1,2 +1,2 @@
-# Naomi-Nguyen
-Bot based on my character, Naomi Nguyen!
+# Huian-Liang
+Bot based on my character, Huian Liang!
