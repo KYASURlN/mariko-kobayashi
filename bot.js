@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 const responseObject = {
-  "ping": "P-Pong!!",
-  "I LOVE NAOMI": "I-I love you, too!",
+  "ping": "Screw off",
+  "I LOVE HUIAN": "ok",
   "lol": "roflmaotntpmp"
 };
 
