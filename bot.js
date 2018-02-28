@@ -5,14 +5,13 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-const MessageHandler = require('discord-message-handler');
-    client.on('message', message => {
-    MessageHandler.handleMessage(message);
-        MessageHandler.whenMessageContainsWord("shrug").reply("¯\\_(ツ)_/¯");
-            MessageHandler.whenMessageContains("lol").replySometimes("kek", 50);
-            MessageHandler.whenMessageContainsExact("dota").replyOne(["volvo pls", "rip doto"]);
-            MessageHandler.whenMessageContainsOne(["br", "brazil"]).reply("huehue");
-            MessageHandler.whenMessageStartsWith("help").then(message => doSomething(message));
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
+    if (message.content === 'I LOVE HUIAN') {
+    	message.reply('Flattered.');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
