@@ -5,6 +5,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+const MessageHandler = require('discord-message-handler');
 client.on('message', message => {
     MessageHandler.setCaseSensitive(false);
     if (message.content === 'ping') {
