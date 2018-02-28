@@ -12,6 +12,12 @@ client.on('message', message => {
     if (message.content === 'tomo is gay') {
     	message.channel.sendMessage('According to my diagnosis, that is correct.');
   	}
+    if (message.content === 'I LOVE HUIAN') {
+    	message.channel.sendMessage('Flattered.');
+  	}
+    if (message.content === 'How flattered?') {
+    	message.channel.sendMessage('That is for me to know.');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
