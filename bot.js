@@ -6,6 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+    MessageHandler.setCaseSensitive(false);
     if (message.content === 'ping') {
     	message.channel.sendMessage('pong');
   	}
