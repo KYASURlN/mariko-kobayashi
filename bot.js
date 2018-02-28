@@ -5,12 +5,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
-});
-
 MessageHandler.whenMessageContainsWord("shrug").reply("¯\\_(ツ)_/¯");
 MessageHandler.whenMessageContains("lol").replySometimes("kek", 50);
 MessageHandler.whenMessageContainsExact("dota").replyOne(["volvo pls", "rip doto"]);
