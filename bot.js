@@ -14,7 +14,6 @@ const MessageHandler = require('discord-message-handler');
             MessageHandler.whenMessageContainsOne(["br", "brazil"]).reply("huehue");
             MessageHandler.whenMessageStartsWith("help").then(message => doSomething(message));
 });
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
