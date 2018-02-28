@@ -7,10 +7,10 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
+    	message.sendmessage('pong');
   	}
-    if (message.content === 'I LOVE HUIAN') {
-    	message.reply('Flattered.');
+    if (message.content === 'tomo is gay') {
+    	message.sendmessage('According to my diagnosis, that is correct.');
   	}
 });
 
