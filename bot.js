@@ -12,7 +12,6 @@ client.on('message', message => {
     MessageHandler.whenMessageContainsExact("dota").replyOne(["volvo pls", "rip doto"]);
     MessageHandler.whenMessageContainsOne(["br", "brazil"]).reply("huehue");
     MessageHandler.whenMessageStartsWith("help").then(message => doSomething(message));
-  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
