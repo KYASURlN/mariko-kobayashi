@@ -13,7 +13,7 @@ client.on('ready', () => {
     }
 
     const entry = {
-      count: count || 1,
+      count: count || 3,
       interval: this.client.setInterval(() => {
         this.client.rest.methods.sendTyping(this.id).catch(() => {
           this.client.clearInterval(entry.interval);
