@@ -17,12 +17,5 @@ client.on('message', message => {
         }
 });
 
-bot.on('message', function(message) {
-	if (message.content == 'start')
-		message.channel.startTyping();
-	if (message.content == 'stop')
-		message.channel.stopTyping();
-});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
