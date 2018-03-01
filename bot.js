@@ -12,8 +12,8 @@ client.on('message', message => {
     if (message.content.toLowerCase() === 'tomo is gay') {
         message.channel.sendMessage('hes probably very gay');
         }
-    if (message.content.toLowerCase() === 'tomo is very gay') {
-        message.channel.sendMessage("he's probably very gay");
+    if (message.content.toLowerCase() === 'i love seong') {
+        message.channel.sendMessage("You're my favorite :satan:");
         }
 });
 
