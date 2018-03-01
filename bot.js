@@ -13,7 +13,7 @@ client.on('message', message => {
         message.channel.sendMessage('hes probably very gay');
         }
     if (message.content.toLowerCase() === 'i love seong') {
-        message.channel.sendMessage("You're my favorite :satan:");
+        message.channel.sendMessage("You're my favorite~");
         }
 });
 
