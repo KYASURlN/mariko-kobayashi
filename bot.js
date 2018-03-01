@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content.toLowerCase() === 'ping') {
-        message.channel.sendMessage('Ding Dong!');
+        message.channel.startTyping.sendMessage('Ding Dong!');
         }
     if (message.content.toLowerCase() === 'tomo is gay') {
         message.channel.sendMessage('hes probably very gay');
