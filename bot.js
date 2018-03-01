@@ -17,13 +17,6 @@ client.on('message', message => {
         }
 });
 
-let Discord = require('discord.js');
-let bot = new Discord.Client();
-
-bot.on('ready', function() {
-	console.log(Discord.version);
-});
-
 bot.on('message', function(message) {
 	if (message.content == 'start')
 		message.channel.startTyping();
