@@ -1,2 +1,2 @@
-# Huian-Liang
-Bot based on my character, Huian Liang!
+# SeongSo
+this fucking bastard
