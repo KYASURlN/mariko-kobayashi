@@ -21,6 +21,9 @@ client.on('message', message => {
     if (message.content.toLowerCase() === 'mari') {
         message.channel.sendMessage('Oh, you called?');
         }
+    if (message.content.toLowerCase() === 'mari, what do you think about jiro?') {
+        message.channel.sendMessage("Why, he's like a little brother to me! I cannot honestly believe that he is interested in that toad of a man, but to each their own, right? No matter, he's still one of the sweetest and funniest people ever.");
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
