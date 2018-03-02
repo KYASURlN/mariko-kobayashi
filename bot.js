@@ -18,6 +18,9 @@ client.on('message', message => {
     if (message.content.toLowerCase() === 'i love mari') {
         message.channel.sendMessage('Why, how charming! I really appreciate your kind words and accept them graciously!~');
         }
+    if (message.content.toLowerCase() === 'mari') {
+        message.channel.sendMessage('Oh, you called?');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
