@@ -30,6 +30,9 @@ client.on('message', message => {
     if (message.content.toLowerCase() === 'mari, what do you think about yuudai?') {
         message.channel.sendMessage("Some fucking piece of no-good cabbage.");
         }
+    if (message.content.toLowerCase() === "Hehehe you can't fit a telescope in your pants, silly!") {
+        message.channel.sendMessage('Jiro, I do not believe that is what they meant...');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
