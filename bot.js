@@ -15,6 +15,9 @@ client.on('message', message => {
     if (message.content.toLowerCase() === 'zaire: is that a telescope in your pants or are you just happy to see me?') {
         message.channel.sendMessage('Die.');
         }
+    if (message.content.toLowerCase() === 'i love mari') {
+        message.channel.sendMessage('Why, how charming! I really appreciate your kind words and accept them graciously!~');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
