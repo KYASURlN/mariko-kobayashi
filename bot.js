@@ -35,6 +35,7 @@ client.on('message', message => {
         }
     if (message.content === 'mari, what is my avatar') {
         message.reply(message.author.avatarURL);
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
