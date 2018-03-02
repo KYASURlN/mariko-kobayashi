@@ -33,7 +33,7 @@ client.on('message', message => {
     if (message.content.toLowerCase() === "Hehehe you can't fit a telescope in your pants, silly!") {
         message.channel.sendMessage('Jiro, I do not believe that is what they meant...');
         }
-    if (message.content === 'mari, what is my avatar') {
+    if (message.content === 'what is my avatar') {
         message.reply(message.author.avatarURL);
         }
 });
