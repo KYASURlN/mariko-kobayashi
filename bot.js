@@ -27,6 +27,9 @@ client.on('message', message => {
     if (message.content.toLowerCase() === 'mari, what do you think about zaire?') {
         message.channel.sendMessage("Real strange might I say. The only reason I know about his broccoli-headed ass is because of Jiro.");
         }
+    if (message.content.toLowerCase() === 'mari, what do you think about yuudai?') {
+        message.channel.sendMessage("Some fucking piece of no-good cabbage.");
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
