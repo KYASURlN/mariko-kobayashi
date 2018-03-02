@@ -7,13 +7,10 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content.toLowerCase() === 'ping') {
-        message.channel.sendMessage('Ding Dong!');
+        message.channel.sendMessage('Ring around the rosie~');
         }
     if (message.content.toLowerCase() === 'tomo is gay') {
-        message.channel.sendMessage('hes probably very gay');
-        }
-    if (message.content.toLowerCase() === 'i love seong') {
-        message.channel.sendMessage("You're my favorite~");
+        message.channel.sendMessage('There is no doubt.');
         }
 });
 
